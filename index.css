@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding:0
+}
+ul{
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    width: 640px;
+    height: 1008px;
+    position: absolute;
+    left:50%;
+    top:0;
+    margin-left: -320px;
+    -webkit-transform-origin: top;
+}
+.loading{
+    width: 100%;
+    height:100%;
+    background: #000;
+    position: absolute;
+    z-index: 10;
+}
+.progress{
+    margin: 0 15%;
+    width: 70%;
+    position: absolute;
+    top:40%;
+    height: 40px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.loadSpan{
+    width: 0;
+    display: block;
+    height: 40px;
+    background-image:-webkit-linear-gradient(45deg, #5cb85c 25% , #74c274 50% , #5cb85c 75%,#74c274 100% );
+    background-size: 40px 40px;
+    background-repeat:repeat-x;
+    -webkit-transition: 1s;
+}
+#phone{
+    width: 100%;
+    height:100%;
+    position:absolute;
+    z-index: 9;
+    background: url(images/phoneBg.jpg) no-repeat;
+    -webkit-transition:1s;
+}
+
+.phoneHead{
+    width: 100%;
+    height: 89px;
+    text-align: center;
+    margin-top: 10%;
+    background: url(images/phoneHeadName.png) no-repeat center ;
+}
+.answerOne{
+    width: 520px;
+    height: 360px;
+    position: absolute;
+    left:50%;
+    margin-left: -260px;
+    bottom:5%;
+    background: url(images/phoneBtn.png) no-repeat;
+}
+.touchOne,.touchClick{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left:360px;
+    top:146px;
+    border-radius: 50%;
+    border:2px solid #0F0;
+    -webkit-animation: scaleMove 1s infinite;
+    z-index: -1;
+}
+@-webkit-keyframes scaleMove {
+    0%{
+        -webkit-transform: scale(1.2);
+    }
+    100%{
+        -webkit-transform: scale(0.5);
+    }
+}
+.touchClick{
+    border:none;
+    -webkit-animation: none;
+    z-index: 5;
+}
+.answerOther{
+    width: 520px;
+    height: 629px;
+    position: absolute;
+    left:50%;
+    margin-left: -260px;
+    bottom:5%;
+    background: url(images/phoneKey.png) no-repeat;
+    -webkit-transform: translate(0,669px);
+    -webkit-transition: 1s;
+}
+.otherClick{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left:180px;
+    bottom:0;
+}
+.message{
+    width: 100%;
+    height: 100%;
+    background: #eaeaea;
+    position: absolute;
+    z-index: 7;
+}
+.messageText{
+    position: absolute;
+    left:50%;
+    margin-left: -320px;
+    bottom:0;
+    width:640px;
+    height: 88px;
+    background: url(images/messageText.png) no-repeat;
+}
+.message ul{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: 1s;
+}
+.message ul li{
+    max-width: 360px;
+    position: relative;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    line-height: 40px;
+    color: #000;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 30px;
+    -webkit-transform: translate(0,20px);
+    -webkit-transition:-webkit-transform 0.5s;
+    opacity: 0;
+}
+
+.message ul li.left{
+    background: #fff;
+    left:100px;
+
+}
+.message ul li.right{
+    background: #11c900;
+    right:-100px;
+    text-align: right;
+
+}
+.message ul li.left img:nth-child(1){
+    position: absolute;
+    left:-100px;
+    top:-10px;
+}
+.message ul li.left img:nth-child(2){
+    position: absolute;
+    left:-12px;
+}
+
+.message ul li.right img:nth-child(1){
+    position: absolute;
+    right:-100px;
+    top:-10px
+}
+.message ul li.right img:nth-child(2){
+    position: absolute;
+    right:-12px;
+}
+.cube{
+    width: 640px;
+    height: 100%;
+    position: absolute;
+    left:50%;
+    margin-left: -320px;
+    top:0;
+    background: url(images/cubeBg.jpg) no-repeat;
+    perspective:800px;
+    background-size:cover;
+}
+.cubeBox{
+    width: 510px;
+    height: 510px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -255px;
+    margin-top: -255px;
+    transform-style: preserve-3d;
+    transform-origin: 255px 255px -255px;
+    -webkit-transform: scale(0.2) rotateX(-135deg) rotateY(180deg);
+    -webkit-transition: 1s;
+}
+.cubeBox li{
+    width: 510px;
+    height: 510px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.cubeBox li:nth-child(1){
+    background: url(images/cubeImg1.png) no-repeat;
+}
+.cubeBox li:nth-child(2){
+    background: url(images/cubeImg2.png) no-repeat;
+    left:510px;
+    -webkit-transform: rotateY(90deg);
+    -webkit-transform-origin: left;
+}
+.cubeBox li:nth-child(3){
+    background: url(images/cubeImg3.png) no-repeat;
+    left:-510px;
+    -webkit-transform: rotateY(-90deg);
+    -webkit-transform-origin: right;
+}
+.cubeBox li:nth-child(4){
+    background: url(images/cubeImg4.png) no-repeat;
+    top:-510px;
+    -webkit-transform: rotateX(90deg);
+    -webkit-transform-origin:bottom;
+}
+.cubeBox li:nth-child(5){
+    background: url(images/cubeImg5.png) no-repeat;
+    top:510px;
+    -webkit-transform: rotateX(-90deg);
+    -webkit-transform-origin:top;
+}
+.cubeBox li:nth-child(6){
+    background: url(images/cubeImg6.png) no-repeat;
+    -webkit-transform: translateZ(-510px);
+}
+
+
+
+
