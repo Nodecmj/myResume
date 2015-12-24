@@ -58,7 +58,7 @@ ul{
 }
 
 .a1 p:nth-child(even){
-   -webkit-transform: translate(-500px,0);
+    -webkit-transform: translate(-500px,0);
 }
 #a1 p{
     -webkit-transform: translate(0,0);
