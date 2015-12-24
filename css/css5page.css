@@ -1,0 +1,392 @@
+@charset "UTF-8";
+ .page .page1 h2{
+     float: left;
+     width:49px;
+     font-weight: lighter;
+     height: 60px;
+     line-height: 60px;
+     font-size: 20px;
+ }
+ .page .page1 .p1{
+     float: right;
+     height: 42px;
+     width: 328px;
+ }
+.page .page1 .p1 ul{
+    padding-top: 18px;
+    height: 26px;
+    width: 328px;
+    font-size: 15px;
+    list-style: none;
+
+}
+.page .page1 .p1 ul li{
+    cursor: pointer;
+    float: right;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 29px;
+}
+.page .page1 .p1 ul .bg{
+    color: #ff6700;
+    border-bottom: 1px solid #ff6700;
+}
+.page .page2 .d2{
+    float: left;
+    width: 1226px;
+    height: 60px;
+}
+
+.page .page2 .d2 h2{
+    float: left;
+    width:49px;
+    font-weight: lighter;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+}
+.page .page2 .d2 .p1{
+    float: right;
+    height: 42px;
+    width: 358px;
+}
+.page .page2 .d2 .p1 ul{
+    float: right;
+    padding-top: 18px;
+    height: 26px;
+    width: 445px;
+    font-size: 15px;
+    list-style: none;
+
+}
+.page .page2 .d2 .p1 ul li{
+    cursor: pointer;
+    float: right;
+    height: 26px;
+    width: 60px;
+    background: #f5f5f5;
+    line-height: 26px;
+    text-align: center;
+    margin:0  0 0 29px;
+}
+.page .page2 .d2 .p1 ul .bg{
+    color: #ff6700;
+    border-bottom: 1px solid #ff6700;
+}
+
+
+
+.page .page2 .p2{
+    width: 1226px;
+    height: 628px;
+    float: left;
+}
+.page .page2 .p2 .B1{
+    width: 234px;
+     height: 628px;
+    float: left;
+ }
+.page .page2 .p2 .B2{
+    width: 992px;
+    height: 628px;
+    float: left;
+}
+.page .page2 .p2 .B1 ul{
+    float: left;
+    width: 234px;
+    height: 628px;
+    list-style: none;
+
+}
+.page .page2 .p2 .B1 ul li{
+    margin-bottom: 13px;
+    float: left;
+    width: 234px;
+    height: 300px;
+}
+.page .page2 .p2 .B2 ul{
+
+    margin-left: 9px;
+    float: left;
+    width: 992px;
+    height: 628px;
+    list-style: none;
+    padding-left: 4px;
+}
+.page .page2 .p2 .B2 ul li{
+    /*margin-bottom: 13px;*/
+
+    float: left;
+    width: 234px;
+    height: 300px;
+    /*margin: 4.5px;*/
+    margin-right: 14px;/*修改了这里**********************************************/
+    margin-bottom: 13px;
+    /*background: #ff7b00;*/
+    background: white;
+}
+.page .page2 .p2 .B2 ul li .DV2{
+    padding-bottom: 20px;
+    padding-left: 42px;
+    padding-top: 35px;
+    width: 150px;
+    height: 150px;
+}
+.page .page2 .p2 .B2 ul li .DV2 a{
+    width: 150px;
+    height: 150px;
+}
+.page .page2 .p2 .B2 ul li .DV2 a img{
+    width: 150px;
+    height: 150px;
+}
+.page .page2 .p2 .B2 ul li .DV3{
+    float: left;
+    width: 64px;
+    height: 20px;
+    line-height: 20px;
+    background: #83c44e;
+    margin-left: 85px;
+    text-align: center;
+    font-size: 11px;
+    color: white;
+}
+.page .page2 .p2 .B2 ul li h3{
+    width: 234px;
+    height: 21px;
+    text-align: center;
+}
+.page .page2 .p2 .B2 ul li h3 a{
+    font-size: 12px;
+    color: black;
+    line-height: 21px;
+}
+.page .page2 .p2 .B2 ul li .p5{
+    text-align: center;
+    width: 234px;
+    height: 21px;
+    line-height: 21px;
+    color: #ff7b00;
+    padding-bottom: 10px;
+}
+.page .page2 .p2 .B2 ul li .p6{
+    text-align: center;
+    width: 234px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 11px;
+    color: #b0b0b0;
+}
+.page .page2 .p2 .B2 ul li .D2{
+    position: relative;
+    height: 143px;
+    width: 234px;
+    float: left;
+    margin-bottom: 14.4px;
+    background: white;
+
+}
+.page .page2 .p2 .B2 ul li .D3{
+    position: relative;
+    height: 143px;
+    width: 234px;
+    float: left;
+    background: white;
+
+}
+.page .page2 .p2 .B2 ul li .D2 .I1{
+    position: absolute;
+    right: 22px;
+    top: 39px;
+    float: right;
+    width: 80px;
+    height: 80px;
+}
+.page .page2 .p2 .B2 ul li .D2 .I2{
+    position: absolute;
+    top: 46px;
+    left: 30px;
+    width: 95px;
+    height: 40px;
+    font-size: 10px;
+}
+.page .page2 .p2 .B2 ul li .D2 .I2 .n1{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.page .page2 .p2 .B2 ul li .D3 .I3{
+    position: absolute;
+    top: 45px;
+    right: 35px;
+    float: right;
+    width: 48px;
+    height: 48px;
+}
+.page .page2 .p2 .B2 ul li .D3 .I4{
+    position: absolute;
+    top: 55px;
+    left: 30px;
+    width: 80px;
+    height: 40px;
+}
+
+
+
+.page .page2 .g1{
+    width: 1226px;
+    height: 628px;
+    float: left;
+}
+.page .page2 .g1 .B1{
+    width: 234px;
+    height: 628px;
+    float: left;
+}
+.page .page2 .g1 .B2{
+    width: 992px;
+    height: 628px;
+    float: left;
+}
+.page .page2 .g1 .B1 ul{
+    float: left;
+    width: 234px;
+    height: 628px;
+    list-style: none;
+
+}
+.page .page2 .g1 .B1 ul li{
+    margin-bottom: 13px;
+    float: left;
+    width: 234px;
+    height: 300px;
+}
+.page .page2 .g1 .B2 ul{
+    margin-left: 9px;
+    float: left;
+    width: 992px;
+    height: 628px;
+    list-style: none;
+    padding-left: 4px;
+}
+.page .page2 .g1 .B2 ul li{
+    /*margin-bottom: 13px;*/
+    float: left;
+    width: 234px;
+    height: 300px;
+    /*margin: 4.5px;*/
+    margin-right: 14px;
+    margin-bottom: 13px;
+    /*background: #ff7b00;*/
+    background: white;
+}
+.page .page2 .g1 .B2 ul li .DV2{
+    padding-bottom: 20px;
+    padding-left: 42px;
+    padding-top: 35px;
+    width: 150px;
+    height: 150px;
+}
+.page .page2 .g1 .B2 ul li .DV2 a{
+    width: 150px;
+    height: 150px;
+}
+.page .page2 .g1 .B2 ul li .DV2 a img{
+    width: 150px;
+    height: 150px;
+}
+.page .page2 .g1 .B2 ul li .DV3{
+    float: left;
+    width: 64px;
+    height: 20px;
+    line-height: 20px;
+    background: #83c44e;
+    margin-left: 85px;
+    text-align: center;
+    font-size: 11px;
+    color: white;
+}
+.page .page2 .g1 .B2 ul li h3{
+    width: 234px;
+    height: 21px;
+    text-align: center;
+}
+.page .page2 .g1 .B2 ul li h3 a{
+    font-size: 12px;
+    color: black;
+    line-height: 21px;
+}
+.page .page2 .g1 .B2 ul li .p5{
+    text-align: center;
+    width: 234px;
+    height: 21px;
+    line-height: 21px;
+    color: #ff7b00;
+    padding-bottom: 10px;
+}
+.page .page2 .g1 .B2 ul li .p6{
+    text-align: center;
+    width: 234px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 11px;
+    color: #b0b0b0;
+}
+.page .page2 .g1 .B2 ul li .D2{
+    position: relative;
+    height: 143px;
+    width: 234px;
+    float: left;
+    margin-bottom: 14.4px;
+    background: white;
+
+}
+.page .page2 .g1 .B2 ul li .D3{
+    position: relative;
+    height: 143px;
+    width: 234px;
+    float: left;
+    background: white;
+
+}
+.page .page2 .g1 .B2 ul li .D2 .I1{
+    position: absolute;
+    right: 22px;
+    top: 39px;
+    float: right;
+    width: 80px;
+    height: 80px;
+}
+.page .page2 .g1 .B2 ul li .D2 .I2{
+    position: absolute;
+    top: 46px;
+    left: 30px;
+    width: 95px;
+    height: 40px;
+    font-size: 10px;
+}
+.page .page2 .g1 .B2 ul li .D2 .I2 .n1{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.page .page2 .g1 .B2 ul li .D3 .I3{
+    position: absolute;
+    top: 45px;
+    right: 35px;
+    float: right;
+    width: 48px;
+    height: 48px;
+}
+.page .page2 .g1 .B2 ul li .D3 .I4{
+    position: absolute;
+    top: 55px;
+    left: 30px;
+    width: 80px;
+    height: 40px;
+}
+
+
+
+
+
+
+

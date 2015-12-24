@@ -1,0 +1,65 @@
+@charset "UTF-8";
+a {
+    text-decoration: none;
+}
+.top .topDBox{
+    margin: 0 auto;
+    width: 1226px;
+    height: 40px;
+}
+
+.top .topDBox .topBox .top1 .q li {
+    list-style: none;
+    font-size: 11px;
+    color: #ccc;
+    float: left;
+    line-height: 40px;
+    margin-right: 15px;
+}
+
+.q li a {
+    color: #b0b0b0;
+}
+
+.q li a:hover {
+    color: white;
+}
+
+.top .topDBox .topBox .top2 {
+    cursor: pointer;
+    position: absolute;
+    right: 11px;
+    line-height: 40px;
+    background: #424242;
+    color: white;
+    text-align: center;
+    top: 0;
+    height: 40px;
+    width: 120px;
+}
+.top .topDBox .topBox .top2 a{
+    color: #b0b0b0;
+    font-size: 11px;
+}
+.top .topDBox .topBox .top2:hover,.top .topBox .top2 a:hover{
+    color: white;
+}
+.top .topDBox .topBox .top3{
+    position: absolute;
+    right: 146px;
+    top: 0;
+    width: 74px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.top .topDBox .topBox .top3 #s1,.top .topDBox .topBox .top3 #s2{
+    display: inline-block;
+    height: 40px;
+}
+.top .topDBox .topBox .top3 a{
+    display: inline-block;
+    height: 40px;
+    color: #b0b0b0;
+    font-size: 11px;
+}

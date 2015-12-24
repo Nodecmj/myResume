@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.page .page2 .d11{
+    float: left;
+    width: 1226px;
+    height: 285px;
+}
+.page .page2 .d11 ul{
+    list-style: none;
+    width: 1240px;
+    height: 285px;
+}
+.page .page2 .d11 ul li{
+    float: left;
+    width: 296px;
+    height: 285px;
+    background: white;
+    margin-bottom:14px;
+}
+.page .page2 .d11 ul .i3{
+    margin: 0 0 14px 0;
+}
+.page .page2 .d11 ul li div{
+    width: 296px;
+    height: 180px;
+}
+.page .page2 .d11 ul li a{
+    display: block;
+    text-align: center;
+    /*padding-top: 32px;修改****************************************/
+    font-size: 12px;
+    color: black;
+}
+.page .page2 .d11 ul li a:hover{
+    color: #ff7b00;
+}
+.page .page2 .d11 ul li p{
+    display: block;
+
+    font-size: 11px;
+    text-align: center;
+    color: #ccc;
+}

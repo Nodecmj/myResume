@@ -1,0 +1,104 @@
+@charset "UTF-8";
+.head .head1 .head2 .m1{
+    float: left;
+    width: 6130px;
+    height: 460px;
+    position: relative;
+}
+.head .head1 .head2{
+    width: 1217px;
+    height: 745px;
+    overflow: hidden;
+}
+.head .head1 .head2 .m1 img{
+    float: left;
+    border: none;
+}
+.head .head1 .head2 .m1 .e1{
+    position: absolute;
+    float: left;
+    width: 233px;
+    height: 460px;
+    background: #5c6266;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.head .head1 .head2 .m1 .e1 .u3{
+    float: left;
+    list-style: none;
+    padding: 20px 0;
+
+}
+.head .head1 .head2 .m1 .e1 .u3 li a{
+    display: inline-block;
+    color: white;
+    padding-left: 25px;
+    width: 208px;
+    height: 41px;
+    font-size: 13px;
+}
+.head .head1 .head2 .m1 .e1 .u3 li{
+    float: left;
+    width: 233px;
+    height: 41px;
+    line-height: 41px;
+    position: relative;
+}
+.head .head1 .head2 .m1 .e1 .u3 li:hover{
+    background: #ff6700;
+}
+.head .head1 .head2 .m1 .e1 .u3 li img{
+    float: right;
+    position: absolute;
+    right: 24px;
+    top: 12px;
+}
+.head .head1 .head2 .m2{
+    width: 1226px;
+    height: 170px;
+    margin-top: 14px;
+    float: left;
+}
+.head .head1 .head2 .m2 .span1{
+    float: left;
+    height: 170px;
+}
+.head .head1 .head2 .m2 .span1 .u4{
+    float: left;
+    width: 227px;
+    height: 170px;
+    list-style: none;
+    background: #5f5750;
+}
+.head .head1 .head2 .m2 .span1 .u4 li{
+    position: relative;
+    border: 1px solid #665e57;
+    float: left;
+    width: 73px;
+    height: 82px;
+    line-height: 82px;
+    text-align: center;
+}
+.head .head1 .head2 .m2 .span1 .u4 li img{
+    float: left;
+    position: absolute;
+    top: 23px;
+    left: 28px;
+}
+.head .head1 .head2 .m2 .span1 .u4 li a{
+    font-size: 11px;
+    position: relative;
+    top: 20px;
+    color: #cfcdcb;
+}
+.head .head1 .head2 .m2 .span1 .u4 li a:hover{
+    color: white;
+}
+.head .head1 .head2 .m2 .span1 .h3,.head .head1 .head2 .m2 .span1 .h4,.head .head1 .head2 .m2 .span1 .h5{
+    float: left;
+    width: 316px;
+    height: 176px;
+    margin-left: 14px;
+}
