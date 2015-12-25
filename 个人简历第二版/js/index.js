@@ -2,6 +2,7 @@ var main = document.querySelector("#main");
 var oLis = document.querySelectorAll(".slide>li");
 var winW = document.documentElement.clientWidth;
 var winH = document.documentElement.clientHeight;
+var audio=document.querySelector("#audio");
 var desW = 640;
 var desH = 960;
 
@@ -15,6 +16,7 @@ main.style.webkitTransform = "scale(" + winH / desH + ")";
     arguments[0].addEventListener('touchend', end, false);
 });
 function start(e) {
+    audio.play();
     this.start = e.changedTouches[0].pageY;
 
 }
