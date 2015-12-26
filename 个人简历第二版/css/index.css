@@ -14,6 +14,19 @@ ul {
     list-style: none;
 }
 
+@media all and (max-height: 480px){
+    .a3{
+        top: 8%;
+        left: 4%;
+    }
+    .i1{
+        left: 20%;
+    }
+}
+
+
+
+
 #main {
     width: 640px;
     height: 960px;
@@ -41,13 +54,13 @@ ul {
 }
 
 .slide li:nth-child(3) {
-    background: url("../images/c.jpg") no-repeat;
-}
-
-.slide li:nth-child(4) {
     width: 100%;
     height: 100%;
     background-color: rgb(72, 207, 174);
+}
+
+.slide li:nth-child(4) {
+    background: url("../images/c.jpg") no-repeat;
 }
 
 .zIndex {
@@ -127,9 +140,94 @@ ul {
     padding: 0 12px;
     color: white;
 }
-@media all and (max-height: 480px){
-    .a3{
-        top: 8%;
-        left: 4%;
-    }
+
+.i1{
+    border: none;
+    position: absolute;
+    top: 9.8%;
+    left: 24%;
+    height: 560px;
+}
+.a4{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    width: 350px;
+    height: 560px;
+    margin: 7px 12px;
+}
+.a4 span{
+    display: block;
+    font-size: 33px;
+    color: white;
+}
+
+
+
+
+.a5 img{
+    position: absolute;
+    height: 191px;
+    width: 108px;
+    left: 11.4%;
+}
+.a5 .m1{
+    top: 20%;
+    width: 101px;
+    left: 12%;
+}
+.a5 .m2{
+    top: 40%;
+    width: 101px;
+    left: 12%;
+}
+.a5 .m3{
+    top: 80%;
+    width: 101px;
+    left: 12%;
+}
+.a5 .m4{
+    top: 21%;
+    width: 101px;
+    left: 12%;
+}
+.a5 .m5{
+    top: 60%;
+    width: 101px;
+    left: 12%;
+}
+
+
+
+.a5 span{
+    position: absolute;
+    display: block;
+    height: 77px;
+    width: 95px;
+    left: 16%;
+    top: 5%;
+}
+.a5 span div{
+    width: 50px;
+    height: 50px;
+}
+.a5 .z2{
+    top: 25%;
+}
+.a5 .z3{
+    top: 45%;
+}
+
+.a5 .z4{
+    top: 65%;
+}
+
+.a5 .z5{
+    top:85%;
+}
+
+
+.a5 span img{
+    width: 115px;
+    height: 70px;
 }

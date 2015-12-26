@@ -2,10 +2,10 @@ var main = document.querySelector("#main");
 var oLis = document.querySelectorAll(".slide>li");
 var winW = document.documentElement.clientWidth;
 var winH = document.documentElement.clientHeight;
-var audio=document.querySelector("#audio");
 var desW = 640;
 var desH = 960;
-
+var audio=document.getElementById("audio");
+var logo=document.getElementById("logo");
 
 //缩放页面适配各个移动设备
 main.style.webkitTransform = "scale(" + winH / desH + ")";
@@ -16,8 +16,8 @@ main.style.webkitTransform = "scale(" + winH / desH + ")";
     arguments[0].addEventListener('touchend', end, false);
 });
 function start(e) {
-    audio.play();
     this.start = e.changedTouches[0].pageY;
+    audio.play();
 
 }
 function move(e) {
@@ -33,7 +33,7 @@ function move(e) {
             arguments[0].style.display="none";
         }
         arguments[0].className = "";
-    })
+    });
     if (changePos > 0) {/*往下滑*/
         var pos = -winH+changePos;
         this.prevSIndex = cur == 0 ? oLis.length - 1 : cur - 1;
