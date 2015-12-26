@@ -17,7 +17,7 @@ main.style.webkitTransform = "scale(" + winH / desH + ")";
 });
 function start(e) {
     this.start = e.changedTouches[0].pageY;
-    audio.play();
+    //audio.play();
 
 }
 function move(e) {
